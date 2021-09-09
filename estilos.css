@@ -12,6 +12,7 @@
 body{
     font-family: 'Patrick Hand', cursive;
     line-height: 1.6;
+    background-color: #5cdb95;
 }
 
 .lugar{
@@ -19,4 +20,59 @@ body{
     border-color: white #999 #ccc #999;
     margin-bottom: 20px;
     padding: 10px;
+    background-color: white;
+}
+
+.lugar a{
+    font-weight: bold;
+    color: #05386b;
+}
+
+h1 a{
+    text-decoration: none;
+    color: #edf5e1;
+}
+
+h1 a:hover{
+    background: #b7f3d2;
+    color: #5cdb95;
+}
+
+.lugar img{
+    width: 200px;
+    float: left;
+    margin: 5px 10px 0 0;
+    border: 1px solid #05386b;
+    padding: 5px;
+}
+
+.clear{
+    clear: both;
+}
+
+.rodape{
+    font-size: 12px;
+    text-align: center;
+}
+
+.lateral{
+    background-color: #8ee4af;
+    border: 1px solid #379683;
+    padding: 10px;
+    width: 260px;
+    float: right;
+}
+
+.lugares{
+    width: 660px;
+    float: left;
+}
+
+.lateral h3{
+    font-size: 14px;
+    margin-top: 0;
+}
+
+.lateral ol{
+    font-size: 12px;
 }
